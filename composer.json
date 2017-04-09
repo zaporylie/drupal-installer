@@ -1,0 +1,19 @@
+{
+    "name": "zaporylie/drupal-installer",
+    "description": "Composer plugin which helps you install Drupal in interactive mode.",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": { "zaporylie\\DrupalInstaller\\": "src" }
+    },
+    "require": {
+        "drush/drush": "^8.1",
+        "webflo/drupal-finder": "^0.2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Piasecki",
+            "email": "jakub@piaseccy.pl"
+        }
+    ]
+}
