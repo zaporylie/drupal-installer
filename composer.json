@@ -7,7 +7,10 @@
     },
     "require": {
         "drush/drush": "^8.1",
-        "webflo/drupal-finder": "^0.2.1"
+        "webflo/drupal-finder": "^0.3"
+    },
+    "scripts": {
+        "drupal-installer": "\\zaporylie\\DrupalInstaller\\DrupalInstaller::installDrupal"
     },
     "license": "GPL-2.0+",
     "authors": [
